@@ -1,6 +1,11 @@
 @media only screen and (min-width: 32.5em) {
-  header {
+  body {
+    margin: 0.5rem;
     font-size: 2em;
+  }
+  
+  header {
+    
     font-family: "Luxurious Roman", cursive;
     display: grid;
     grid-template-columns: 150px auto;
@@ -13,6 +18,7 @@
     box-shadow: 10px 10px 15px grey, -10px 0px 15px grey, 0px -10px 15px grey;
   }
 
+
   h2 {
     font-size: 2em;
     color: red;
@@ -22,4 +28,11 @@
   footer {
     background-color: rgba(150, 50, 250, 1);
   }
+}
+.italic {
+  font-style: italic;
+}
+.lessonList {
+  border-bottom: 0.1rem solid #c5c5c5;
+  border-top: 0.1rem solid #c5c5c5;  
 }

@@ -4,7 +4,7 @@
 }
 
 header {
-  font-size: 1em;
+  
   font-family: "Luxurious Roman", cursive;
   align-items: center;
   background-color: rgba(50, 50, 250, 1);
@@ -16,6 +16,7 @@ header {
 
 body {
   margin: 0.5rem;
+  font-size: 2em;
 }
 
 img {
@@ -51,4 +52,13 @@ footer {
 
 .last {
   color: yellow;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.lessonList {
+  border-bottom: 0.1rem solid #c5c5c5;
+  border-top: 0.1rem solid #c5c5c5;  
 }
